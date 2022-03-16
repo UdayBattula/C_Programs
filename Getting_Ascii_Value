@@ -1,0 +1,10 @@
+#include<stdio.h>
+main()
+{
+char ch;
+int a;
+printf("enter a character= ");
+ch=getchar();
+a=ch;
+printf("The ASCII value is %d", a);
+}
