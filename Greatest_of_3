@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{ int a,b,c;
+printf("Enter any three numbers= ");
+scanf("%d,%d,%d",&a,&b,&c);
+if(a>=b&&a>c)
+printf("Greatest number of the entered three numbers is= %d",a);
+else if(b>=c&&b>a)
+printf("Greatest number of the entered three numbers is= %d",b);
+else if(c>=a&&c>b)
+printf("Greatest number of the entered three numbers is= %d",c);
+else
+printf("entered three numbers are equal= %d",a);
+}
