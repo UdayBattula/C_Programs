@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{	int i,n;
+	printf("Enter the last natural number= \n");
+	scanf("%d",&n);
+	int natural[n];
+	for(i=0;i<n;i++)
+	{
+	scanf("%d",&natural[i]);
+	}
+	for(i=0;i<n;i++)
+	printf("the %d natutal number is %d\n",i+1,natural[i]);
+}
