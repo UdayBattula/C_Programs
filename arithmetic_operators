@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+	int modd,a,b,sum,mul,div,diff;
+	printf("Enter two operands= ");
+	scanf("%d%d",&a,&b);
+	sum=a+b;
+	diff=a-b;
+	mul=a*b;
+	div=a/b;
+	modd=a%b;
+	printf("Sum= %d\n diff= %d\n multiplication= %d\n quotient= %d\n remainder= %d\n",sum,diff,mul,div,modd);
+}
