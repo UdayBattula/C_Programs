@@ -1,0 +1,22 @@
+#include<stdio.h>
+int pal(int a)
+	{	int x,rn,r,n;
+		for (rn=0;x=n;x>0)
+	{ r=n%10;
+	  r=n/10;
+	  rn=rn*10+r;
+	}
+	return rn;
+	}
+	main()
+{
+	int num, palin;
+	printf("enter any number= ");
+	scanf("%d",&num);
+	palin=pal(num);
+	if(num==palin)
+	printf("is a palindrome %d",num);
+	else 
+	printf("is not a palindrome %d ",num);
+	return 0;
+}
