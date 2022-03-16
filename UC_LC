@@ -1,0 +1,10 @@
+#include<stdio.h>
+main(void)
+{
+	int a; char ch;
+	printf("Enter the character in 	UC= ");
+	scanf("%c",&ch);
+	a=ch;
+	ch=a+32;
+	printf("LC is %C",ch);
+}
