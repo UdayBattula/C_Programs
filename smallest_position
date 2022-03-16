@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+	int i,l,pos;
+	int a[5]={7,66,55,44,3};
+	l=a[1];
+	for(i=0;i<=4;i++)
+	{
+		if (a[i]<l)
+		{
+			l=a[i];
+			pos=i;
+		}
+	}
+	printf("%d\n",pos);
+	printf("%d",l);
+}
