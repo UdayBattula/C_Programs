@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+main()
+{
+  float a,b,c,D,R1,R2;
+  printf("Enter the coeffecients of x^2 and x and the value of constant= ");
+  scanf("%f,%f,%f",&a,&b,&c);
+  D=((b*b)-4*a*c);
+  R1=((-b+(sqrt(D))/(2*a)));
+  R2=((-b-(sqrt(D))/(2*a)));
+  if (D<0)
+        printf("The roots of the given quadratic equation is imaginary, i.e.= %f",R1,R2);
+  else if (D==0)
+        printf("The roots of the given quadratic equation are real and equal, i.e.= %f",R1,R2);
+  else
+        printf("The roots of the given quadratic equation are real and unequal, i.e.= %f",R1,R2);
+}
