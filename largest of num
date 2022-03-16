@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int n,l=0,p=0,i;
+	printf("Enter the size of array= ");
+	scanf("%d",&n);
+	int numm[n];
+	for(i=0;i<=n-1;i++)
+	{
+		printf("Enter the %d number= \n",i+1);
+		scanf("%d",&numm[i]);
+		if(l>numm[i])
+		l=l;
+		else
+		{
+			l=numm[i];
+			p=i;
+		}
+	}
+	printf("%d is the largest and its postion is %d",l,p);
+}
