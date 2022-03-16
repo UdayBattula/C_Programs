@@ -1,0 +1,15 @@
+#include<stdio.h>
+int fac(int x)
+{	int f=1;
+	for( ;x>1;x--)
+	f=f*x;
+	return f;
+}
+main()
+{	int n,fact;
+	printf("Enter any number= ");
+	scanf("%d",&n);
+	fact=fac(n);
+	printf("%d",fact);
+	return 0;
+}
